@@ -1,0 +1,60 @@
+.hidden-svg {
+    display: none;
+}
+
+.active-svg {
+    display: block;
+}
+
+div{
+    padding:2%;
+    
+    justify-content: center;
+
+}
+
+h2{
+    margin:2%;
+    margin-top: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h5{
+    margin:2%;
+    margin-top: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    font-weight: lighter;
+}
+p{
+    margin:2%;
+    margin-top: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+label{
+    margin:2%;
+}
+
+select{
+    height:30px;
+  
+    
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 1000; /* Ensure it's on top of other elements */
+    padding: 8px;
+    background-color: white;
+    border: 1px solid black;
+    display: none; /* Initially hidden */
+}
+
+#selectorContainer{
+    background-color:rgb(141, 141, 141);
+    padding-top:3%;
+}
+
+.footer{
+    font-size: 10px;
+}
